@@ -2,7 +2,7 @@
 - name: Install selinux utility packages
   become: yes
   yum:
-    name: {{ item }} 
+    name: "{{ item }}"
     state: present
   with_items:
     - libselinux-python
