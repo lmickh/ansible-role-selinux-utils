@@ -1,0 +1,13 @@
+dependencies: []
+galaxy_info:
+  author: lmickh
+  description: Install selinux libs and utilities for python
+  license: MIT
+  min_ansible_version: 2.0
+  platforms:
+    - name: EL
+      versions:
+        - 7
+  galaxy_tags:
+    - python
+    - selinux
